@@ -13,15 +13,19 @@ Open a terminal or command prompt and navigate to the project directory.
 
 Install the project dependencies by running the following command:
 
-Copy code
+Copy code:
+
 npm install
+
 Place the PDF files you want to merge into the input directory.
 
 Open the index.js file and modify the fileNames array to include the names of the PDF files you want to merge. Ensure that the file names are in the correct order of merging.
 
 
-Copy code
+Copy code:
+
 npm start
+
 This command will execute the server.js file, which will merge the PDF files and create a new file named merged.pdf in the public directory.
 
 Once the process is complete, you can find the merged PDF file in the output directory.
